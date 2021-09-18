@@ -12,14 +12,16 @@
 .blue{background-color:blue; left:40% }
 
 #choice_buttons{
+    position: relative;
     margin-top:380px;
     margin-left: 28%;
     border-radius: 12px;
 }
 
 #buttons{
-    margin-top:50px;
-    margin-left: 30%;
+    position: relative;
+    margin-top:20px;
+    margin-left: 20%;
 }
 
 #button_text{
