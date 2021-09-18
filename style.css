@@ -13,14 +13,13 @@
 
 #choice_buttons{
     margin-top:380px;
-    margin-left: 520px;
+    margin-left: 28%;
     border-radius: 12px;
 }
 
 #buttons{
-    position:absolute;
     margin-top:50px;
-    margin-left: 480px;
+    margin-left: 30%;
 }
 
 #button_text{
