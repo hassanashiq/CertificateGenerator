@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>AnimeApp</title>
+</head>
+
+<body>
+
+
+  <div id="boxes">
+    <div class="box red" id="box_red">  </div>
+    <div class="box blue" id="box_blue"> </div>
+  </div>
+
+  <label id="countdown"> </label>
+  
+  <div id="choice_buttons">
+        <input type="radio" id="col_1" name="col_choice" value="Col-1">
+        <label for="col_1">Column 1</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+
+        <input type="radio" id="col_2" name="col_choice" value="Col-2">
+        <label for="col_2">Column 2</label><br>
+  </div>
+
+  <button id="button_text" onclick="test()"> Click Me </button>
+  <button id="button_play" onclick="play()"> Play </button>
+  <button id="button_magic" onclick="magic()"> Magic </button>
+
+
+  <script src="./node_modules/animejs/lib/anime.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

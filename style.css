@@ -1,0 +1,50 @@
+
+.box{
+    position: absolute;
+    top:10%;
+    margin:2px;
+    width:50px;
+    height: 350px;
+    text-align:center;
+}
+
+.red{background-color:red;  left:40%; }
+.blue{background-color:blue; left:50%;}
+
+#button_text{
+    margin-top: 2%;
+    margin-left: 43%;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#choice_buttons{
+    margin-top:32%;
+    margin-left: 38%;
+    border-radius: 12px;
+}
+
+#button_magic{
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#button_magic {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+#button_play{
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+}
+#countdown{
+    margin-left: 5%;
+    font-size: 32px;
+
+}
